@@ -40,7 +40,7 @@ body{
 #card-qr img{
     width: 280px;
     border-radius: 9px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 /* CARD-CONTENT-INFO */
@@ -50,7 +50,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 15px;
     width: 100%;
 }
 
