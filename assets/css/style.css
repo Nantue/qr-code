@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+    /* ## Colors */
+    --White: hsl(0, 0%, 100%);
+    --gray: hsl(212, 45%, 89%);
+    --Grayish: hsl(220, 15%, 55%);
+    --Dark: hsl(218, 44%, 22%);
+}
+
+body{
+    font-size: 15px;
+    display: grid;
+    place-items: center;
+    grid-template-rows: 98% 1fr;
+    height: 100vh;
+    background-color: var(--gray);
+}
+
+/* CARD-QR */
+#card-qr{
+    background-color: var(--White);
+    box-shadow: 0px 0px 39px -30px var(--Dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 310px;
+    height: 460px;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+}
+
+#card-qr img{
+    width: 280px;
+    border-radius: 9px;
+}
+
+/* CARD-CONTENT-INFO */
+.card-content_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.card-content_info h1{
+    font-size: 20px;
+}
+
+.card-content_info p{
+    width: 250px;
+}
