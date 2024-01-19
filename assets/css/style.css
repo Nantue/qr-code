@@ -31,8 +31,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 317px;
-    height: 495px;
+    width: 315px;
+    height: auto;
     border-radius: 10px;
     gap: 20px;
 }
@@ -40,6 +40,7 @@ body{
 #card-qr img{
     width: 280px;
     border-radius: 9px;
+    margin-top: 20px;
 }
 
 /* CARD-CONTENT-INFO */
@@ -50,15 +51,16 @@ body{
     align-items: center;
     text-align: center;
     gap: 20px;
+    width: 100%;
 }
 
 .card-content_info h1{
     font-size: 20px;
-    width: 250px;
+    width: 82%;
 }
 
 .card-content_info p{
-    width: 250px;
+    width: 80%;
     color: var(--Grayish);
     padding-bottom: 30px;
 }
