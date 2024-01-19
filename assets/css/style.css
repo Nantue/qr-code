@@ -31,10 +31,9 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 315px;
-    height: 470px;
+    width: 317px;
+    height: 495px;
     border-radius: 10px;
-    padding: 20px;
     gap: 20px;
 }
 
@@ -55,6 +54,7 @@ body{
 
 .card-content_info h1{
     font-size: 20px;
+    width: 250px;
 }
 
 .card-content_info p{
